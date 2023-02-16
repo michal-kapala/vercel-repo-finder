@@ -1,4 +1,10 @@
-# fresh project
+# Overview
+
+Simple URL search for public GitHub repositories deployed to Vercel.
+
+Live on Deno Deploy at [vercel-repo-finder.deno.dev](https://vercel-repo-finder.deno.dev/)
+
+[![Made with Fresh](https://fresh.deno.dev/fresh-badge.svg)](https://fresh.deno.dev)
 
 ### Usage
 
