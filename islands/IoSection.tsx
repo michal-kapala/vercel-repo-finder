@@ -1,5 +1,4 @@
 import { useState } from "preact/hooks";
-import { IS_BROWSER } from "$fresh/runtime.ts";
 import { JSX } from "preact/jsx-runtime";
 
 /**
@@ -23,7 +22,6 @@ export default function IoSection(props: JSX.HTMLAttributes<HTMLInputElement>) {
         <input
           {...props}
           placeholder="Vercel homepage URL"
-          disabled={!IS_BROWSER}
           class="min-w-[20%] px-3 py-2 bg-white rounded border(black 2) disabled:(opacity-50 cursor-not-allowed) mx-2"
           onChange={(e) => {
             const target = e.target as HTMLTextAreaElement;
